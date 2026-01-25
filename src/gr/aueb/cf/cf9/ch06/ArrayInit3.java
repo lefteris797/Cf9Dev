@@ -1,0 +1,7 @@
+package gr.aueb.cf.cf9.ch06;
+
+public class ArrayInit3 {
+    public static void main(String[] args) {
+        int[] arr = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
+    }
+}
