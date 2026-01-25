@@ -1,0 +1,31 @@
+package gr.aueb.cf.cf9.ch11;
+
+/**
+ * Java Bean
+ * Data class with
+ * -private data
+ * Default Constractors
+ * getters & setters
+ */
+public class Main {
+    public static void main(String[] args) {
+        Student student = new Student();
+        Student alice = new Student();
+        Student bob = new Student();
+        Student makis = new Student(3,"Makis","Kapetis");
+        makis.setLastname("Xrisostomos");
+        alice.setId(1);
+        alice.setFirstname("Alice");
+        alice.setLastname("Wonderland");
+
+        bob.setId(2);
+        bob.setFirstname("Bob");
+        bob.setLastname("Dylan");
+
+        System.out.println(makis.getId());
+        System.out.println(makis.getFirstname());
+        System.out.println(makis.getLastname());
+        System.out.println(Student.getStudentsCount());
+
+    }
+}

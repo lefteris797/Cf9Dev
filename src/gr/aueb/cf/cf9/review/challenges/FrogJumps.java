@@ -20,7 +20,7 @@ public class FrogJumps {
         }
         return count;
     }
-    public static int frogJumbs2(int start,int end, int jumb){
-        return Math.ceil((end - start)/(double) jumb);
-    }
+//    public static int frogJumbs2(int start,int end, int jumb){
+//        return Math.ceil((end - start)/(double) jumb);
+//    }
 }
