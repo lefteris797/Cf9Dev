@@ -8,7 +8,7 @@ public class Product {
     private int quantity;
     private boolean stock;
 
-    public Product{
+    public Product() {
     }
 
     public Product(long id, String name, String description, double price, int quantity, boolean stock) {

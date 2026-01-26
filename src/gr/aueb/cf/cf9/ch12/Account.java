@@ -10,7 +10,7 @@ public class Account {
     private String ssn;
     private double balance;
 
-    public Account{
+    public Account(){
     }
 
     public Account(long id, String iban, String firstname, String lastname, String ssn, double balance) {
@@ -101,7 +101,7 @@ public class Account {
             balance -= amount;
         } catch (Exception e) {
             System.err.println("Withdrawal failed" + "\n" + e.getMessage());
-            throw e
+            throw e;
         }
     }
         /**
