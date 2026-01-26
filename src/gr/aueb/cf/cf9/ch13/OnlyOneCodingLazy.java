@@ -12,6 +12,7 @@ public class OnlyOneCodingLazy {
         if (instance == null){
             instance = new OnlyOneCodingLazy();
         }
+        return instance;
     }
         public void doSomething(){
             System.out.println("I am doing something");
