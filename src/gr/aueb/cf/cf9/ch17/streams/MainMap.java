@@ -10,10 +10,10 @@ public class MainMap {
     public static void main(String[] args) {
         List<Integer> numbers = List.of(1,2,3,4,5);
         List<Product> products = new ArrayList<>(List.of(
-               new Product("Apples", 12.5, 10),
-               new Product("Oranges",4.1, 4, 10),
-               new Product("Milk", 2.8, 10),
-               new Product("Apples", 22.2, 10)
+                new Product(1L, "Apples", 12.5, 10,),
+                new Product(2L, "Oranges",4.1, 4, 10),
+                new Product(3L, "Milk", 2.8, 10),
+                new Product(4L, "Apples", 22.2, 10)
         ));
 
         List<Integer> squares = numbers.stream()
