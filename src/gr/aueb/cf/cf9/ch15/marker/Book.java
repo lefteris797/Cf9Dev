@@ -4,7 +4,7 @@ public class Book implements Item{
     private int id;
     private String title;
 
-    public book(){}
+    public Book(){}
 
     public Book(int id, String title) {
         this.id = id;
