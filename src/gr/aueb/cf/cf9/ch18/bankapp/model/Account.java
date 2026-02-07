@@ -4,13 +4,13 @@ import java.util.Objects;
 
 public class Account {
     private String iban;
-    private double balace;
+    private double balance;
 
     public Account(){}
 
-    public Account(String iban, double balace) {
+    public Account(String iban, double balance) {
         this.iban = iban;
-        this.balace = balace;
+        this.balance = this.balance;
     }
 
     public String getIban() {
@@ -21,19 +21,19 @@ public class Account {
         this.iban = iban;
     }
 
-    public double getBalace() {
-        return balace;
+    public double getBalance() {
+        return balance;
     }
 
-    public void setBalace(double balace) {
-        this.balace = balace;
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
     @Override
     public String toString() {
         return "Account{" +
                 "iban='" + iban + '\'' +
-                ", balace=" + balace +
+                ", balace=" + balance +
                 '}';
     }
 
@@ -45,6 +45,6 @@ public class Account {
 
     @Override
     public int hashCode() {
-        return Objects.hash(iban, balace);
+        return Objects.hash(iban, balance);
     }
 }
